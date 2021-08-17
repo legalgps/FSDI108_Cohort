@@ -17,7 +17,7 @@ data = [
     },
     {
         "_id": "adhggjgj13413234246256402835",
-        "title": "LLC Formation",
+        "title": "LLC Formation11",
         "price": 99,
         "category": "Corporations",
         "stock": 5,
@@ -25,15 +25,15 @@ data = [
     },
     {
         "_id": "1341254688asdfasdf402835",
-        "title": "LLC Formation",
+        "title": "LLC Formation12",
         "price": 5,
-        "category": "Corporations",
+        "category": "LLC",
         "stock": 15,
         "image": "LLC.jpg"
     },
     {
         "_id": "asdfahhrr1341340234222835",
-        "title": "LLC Formation",
+        "title": "LLC Formation123",
         "price": 3,
         "category": "Corporations",
         "stock": 123,
@@ -42,7 +42,7 @@ data = [
     {
         "_id": "36afggg13413402835",
         "title": "LLC Formation",
-        "price": 7,
+        "price": 47,
         "category": "Corporations",
         "stock": 123,
         "image": "LLC.jpg"
@@ -50,7 +50,7 @@ data = [
     {
         "_id": "134134028sdfjkk35",
         "title": "LLC Formation",
-        "price": 99,
+        "price": 399,
         "category": "Corporations",
         "stock": 123,
         "image": "LLC.jpg"
@@ -58,7 +58,7 @@ data = [
     {
         "_id": "fghjaflld13413402835",
         "title": "LLC Formation",
-        "price": 99,
+        "price": 199,
         "category": "Corporations",
         "stock": 123,
         "image": "LLC.jpg"
@@ -66,7 +66,7 @@ data = [
     {
         "_id": "nsnmiifew13413402835",
         "title": "LLC Formation",
-        "price": 99,
+        "price": 299,
         "category": "Corporations",
         "stock": 123,
         "image": "LLC.jpg"
