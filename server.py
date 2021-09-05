@@ -167,7 +167,7 @@ def save_order():
 
         db_item = db.products.find_one({"_id": id})
         item["price"] = db_item["price"]
-        total += db_item["price"]
+        total += db_item["price"] * item["quantity"]
 
     print("The total is: ", total)
     order["total"] = total
@@ -192,21 +192,21 @@ def save_order():
 def get_orders():
     cursor = db.orders.find({})
     order = [ order for order in cursor]
-    return parse_json(order)
+    return parse_json(orders)
 
 
-@app.route("/api/orders/<userId>")
+@app.route("/api/orders/<int:userId>")
 def get_order_for_user(userId):
     cursor = db.orders.find({"userId": userId})
     order = [ order for order in cursor]
-    return parse_json(order)
+    return parse_json(orders)
 
 
 
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
 
 
 

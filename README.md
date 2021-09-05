@@ -10,3 +10,10 @@ sudo service mongodb start
 sudo service mongodb stop
 
 # you do the stuff above when you're in the flask_api folder
+
+
+
+### Delete all your orders
+mongo
+use onlinestore
+db.order.remove({})
